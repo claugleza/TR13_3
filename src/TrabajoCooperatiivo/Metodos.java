@@ -118,8 +118,17 @@ public class Metodos {
     public static void realizarDivision(){
     	fail("Not yet implemented");
     }
-    public static void calcularAreaTriangulo(){
-    	fail("Not yet implemented");
+	
+     /**
+      * @author Claudia González
+      * @param base recibe un número que sera la base del triangulo
+      * @param altura recibe un número que sera la altura del triangulo
+      * @return devuelve el area del trianguo
+      */
+    public static void calcularAreaTriangulo(double base , double altura){
+	double area=(base*altura)/2;
+	System.out.println("El area del triangulo es: "+area);
+	return area;
     }
     
     /**
